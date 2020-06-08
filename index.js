@@ -76,7 +76,6 @@ const inviteToOrg = async (email, name, token) => {
         "invitedUserType": "Member",
         "invitedUserDisplayName": name,
     };
-    
     const resp = await axios.post(INVITE_URL, data, {headers: {Authorization: `Bearer ${token}`}});
     return resp.data;
 }
