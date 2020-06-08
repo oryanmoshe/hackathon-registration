@@ -1,0 +1,11 @@
+{
+  "name": "hackathon-registration",
+  "description": "",
+  "version": "0.1.0",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.5",
+    "axios": "^0.19.2",
+    "mongodb": "^3.5.5",
+    "qs": "^6.9.1"
+  }
+}
